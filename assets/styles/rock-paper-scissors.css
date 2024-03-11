@@ -9,6 +9,12 @@ body {
 
 /* Flex Utility Classes */
 .flex { display: flex; }
+/* All of these classes have a prerequisite */
+.gap5 { grid-gap: 5px; }
+.gap10 { grid-gap: 10px; }
+.gap15 { grid-gap: 15px; }
+.gap20 { grid-gap: 20px; }
+.gap25 { grid-gap: 25px; }
 .alignCenter { align-items: center; }
 .flexColumns { flex-direction: column; }
 .justifyCenter { justify-content: center; }
@@ -17,7 +23,10 @@ body {
 .w100 { width: 100%; }
 .m0 { margin: 0; }
 
-/* Coloring Utility Classes */
+/* Styling Utility Classes */
+.fontBold { font-weight: 700; }
+.cursorPointer { cursor: pointer; }
+.cursorCrosshair { cursor: crosshair; }
 .bgBlack {
     color: white;
     background: black;

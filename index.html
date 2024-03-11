@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" href="./assets/images/kalashimicrophonelogo1.PNG" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <link rel="stylesheet" href="./assets/styles/rock-paper-scissors.css" />
+    <script src="./assets/scripts/rock-paper-scissors.js" defer></script>
 </head>
 
-<body class="alignCenter bgBlack flex justifyCenter">
-    Here Is The Body
+<body class="bodyClass alignCenter bgBlack flex flexColumns gap5 justifyCenter">
+    <div class="buttonContainer userButtons">
+        <button class="userChoiceButton choiceButton fontBold cursorCrosshair">Rock</button>
+        <button class="userChoiceButton choiceButton fontBold cursorCrosshair">Paper</button>
+        <button class="userChoiceButton choiceButton fontBold cursorCrosshair">Scissors</button>
+    </div>
+    <div class="buttonContainer computerButtons">
+        <button class="computerChoiceButton choiceButton fontBold bgBlack" disabled>Rock</button>
+        <button class="computerChoiceButton choiceButton fontBold bgBlack" disabled>Paper</button>
+        <button class="computerChoiceButton choiceButton fontBold bgBlack" disabled>Scissors</button>
+    </div>
+    <div class="gameMessage"></div>
 </body>
 
 </html>
